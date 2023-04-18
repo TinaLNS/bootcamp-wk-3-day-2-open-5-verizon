@@ -1,12 +1,12 @@
-ol li  {
-    font-size: 20px;
-    color: green;
+ol li {
+  font-size: 20px;
+  color: green;
 }
 
 #middle-li {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
-.the-other-lis{
-    border: 1px solid blue;
+.the-other-lis {
+  border: 1px solid blue;
 }

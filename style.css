@@ -5,8 +5,38 @@ ol li {
 
 #middle-li {
     border: 1px solid red;
+    
+    padding: 10px 5px 4px 7px;
+    padding-left: 20px;
+}
+
+img {
+    border:1px double purple;
+    border-radius: 50%;
 }
 
 .the-other-lis {
     border: 1px solid blue;
+}
+
+ol, ul {
+    display: flex;
+}
+
+ol {
+    flex-direction: row;
+    height: 40vh; 
+    align-items: baseline;
+    justify-content: space-around;
+ }
+
+ul {
+    border: 1px solid black;
+    /* because flex direction is a column here, */
+    /* justify-content will arrange on the y axis */
+    /* and align-items will arrange on the x axis */
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-evenly;
+    align-items: center;
 }
